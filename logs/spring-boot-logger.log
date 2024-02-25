@@ -1,0 +1,12 @@
+2024-02-25 22:28:38.995 [main] INFO  c.g.s.SpringBootCoroutineApplicationKt - Starting SpringBootCoroutineApplicationKt using Java 17.0.5 with PID 35060 (/Users/PPoya/Jerry/study/books/kotlin-coroutine/study-kotlin-coroutine/build/classes/kotlin/main started by PPoya in /Users/PPoya/Jerry/study/books/kotlin-coroutine/study-kotlin-coroutine)
+2024-02-25 22:28:38.996 [main] INFO  c.g.s.SpringBootCoroutineApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2024-02-25 22:28:39.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-25 22:28:39.543 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-25 22:28:39.543 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-25 22:28:39.543 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-25 22:28:39.564 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-25 22:28:39.565 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 546 ms
+2024-02-25 22:28:39.776 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-25 22:28:39.782 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-25 22:28:39.787 [main] INFO  c.g.s.SpringBootCoroutineApplicationKt - Started SpringBootCoroutineApplicationKt in 0.967 seconds (process running for 1.158)
+2024-02-25 22:29:59.498 [SpringApplicationShutdownHook] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of close method failed on bean with name 'computationCoroutineDispatcher': java.lang.UnsupportedOperationException: Dispatchers.Default cannot be closed
