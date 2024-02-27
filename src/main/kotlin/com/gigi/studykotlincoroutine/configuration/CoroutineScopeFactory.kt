@@ -11,7 +11,7 @@ class CoroutineScopeFactory {
     private val logger = LoggerFactory.getLogger(this.javaClass)
 
     @Bean
-    fun remoteClientCoroutineDispatcher(): CoroutineDispatcher = Dispatchers.IO.limitedParallelism(5)
+    fun remoteClientCoroutineDispatcher(): CoroutineDispatcher = Dispatchers.IO
 
     @Bean
     fun computationCoroutineDispatcher(): CoroutineDispatcher = Dispatchers.Default
